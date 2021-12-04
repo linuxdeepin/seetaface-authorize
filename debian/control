@@ -1,0 +1,16 @@
+Source: seetaface-authorize
+Section: devel
+Priority: optional
+Maintainer: likier <likier@sina.cn>
+Build-Depends: debhelper (>= 11),
+ cmake,
+ seetaface-open-role-zoo
+Standards-Version: 4.5.1
+Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
+Rules-Requires-Root: no
+
+Package: seetaface-authorize
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: seetaface authorize module
+ The authorize module of seetaface.
