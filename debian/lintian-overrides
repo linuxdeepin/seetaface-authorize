@@ -1,0 +1,2 @@
+seetaface-authorize: shlib-without-PT_GNU_STACK-section usr/lib/libSeetaAuthorize.so
+seetaface-authorize: package-must-activate-ldconfig-trigger usr/lib/libSeetaAuthorize.so
