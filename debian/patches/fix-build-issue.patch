@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,7 +9,7 @@
+ list(APPEND CMAKE_PREFIX_PATH ${SOLUTION_DIR}/cmake)
+ 
+ # option for platform
+-set(PLATFORM "x64" CACHE STRING "auto, x86 or x64")
++set(PLATFORM "auto" CACHE STRING "auto, x86 or x64")
+ set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Debug or Release")
+ 
+ set(CONFIGURATION ${CMAKE_BUILD_TYPE})
